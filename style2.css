@@ -1,0 +1,143 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre{
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #15202A;
+}
+
+.logo span{
+    color: #4C7BF3;
+}
+
+.titre{
+    font-size: 22px;
+    color: #969696;
+}
+
+.titre span{
+    color: #15202A;
+    font-weight: bold;
+}
+
+.sous_titre{
+    font-size: 12px;
+}
+
+form{
+
+}
+
+.champ{
+    text-align: left;
+    color: #C2D3FF;
+    border: solid 1px #C2D3FF;
+    border-radius: 25px;
+    padding: 15px 150px 15px 30px;
+}
+
+#bouton{ 
+    margin-top: 10px;
+    text-align: center;
+    background-color: #4C7BF3;
+    color: white;
+    border: solid 1px #4C7BF3;
+    border-radius: 25px;
+    padding: 15px 140px 15px 140px;
+}
+
+.cadre img{
+    width: 320px;
+    height: 192px;
+}
+
+.reseaux{
+    width: 120px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.facebook{
+   background-image: url("Group 17.png");
+   width: 32px;
+   height: 32px;
+}
+
+.tweeter{
+    background-image: url("Group 16.png");
+    width: 32px;
+    height: 32px;
+}
+
+.instagram{
+    background-image: url("Group 15.png");
+    width: 32px;
+    height: 32px;
+}
+
+.facebook:hover{
+    background-image: url("Group 17_h.png");
+    width: 32px;
+    height: 32px;
+}
+
+.tweeter:hover{
+    background-image: url("Group 16_h.png");
+    width: 32px;
+    height: 32px;
+}
+
+.instagram:hover{
+    background-image: url("Group 15_h.png");
+    width: 32px;
+    height: 32px;
+}
+
+.copyright{
+    font-size: 10px;
+    color : #9B9B9B;
+}
+
+header{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
